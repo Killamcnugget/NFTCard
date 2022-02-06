@@ -1,0 +1,100 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+  /*, *::before, */
+  
+  body {
+      background-color: hsl(217, 54%, 11%);
+  }
+
+  .card {
+      background-color: hsl(216, 50%, 16%);
+      font-family: 'Montserrat', sans-serif;
+      box-shadow: 0 4px 8px 0 black;
+      border-radius: 5%;
+      margin: auto;
+      margin-top: 5%;
+      width: 20%;
+
+  }
+  
+  .title {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding-left: 20px;
+  }
+  .title:hover {
+    color: hsl(178, 100%, 50%);
+  }
+
+  .price {
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  
+  .body {
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    padding-left: 20px;
+  }
+
+  .day {
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    text-align: right;
+    padding-right: 10px;
+  }
+  .name {
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    padding-bottom: 30px;
+  }
+
+  .photo {
+      border-radius: 7%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      width: 90%;
+  }
+
+  .photo:hover {
+      opacity: 0.6;
+  }
+   
+  .avatar {
+      width: 50px;
+      padding-left: 10px;
+      padding-top: 5px;
+  }
+
+  .attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+  }
+
+  p.name {
+      border-top: 1px solid hsl(215, 51%, 70%);
+    
+
+  }
+  
+  .creator {
+      color: hsl(215, 51%, 70%);
+  }
+
+  .creator:hover {
+      color: hsl(178, 100%, 50%);
+  }
+  
+  .bottom {
+      color: white;
+  }
